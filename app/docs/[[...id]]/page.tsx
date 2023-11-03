@@ -1,7 +1,7 @@
 const DocsPage = () => {
   return (
     <div>
-      docs
+      docs - dynamic routes available
     </div>
   )
 }
