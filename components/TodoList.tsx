@@ -1,6 +1,6 @@
-import Todo from "./Todo"
+import Todo, { TodoType } from "./Todo"
 
-const TodoList = ({todos}) => {
+const TodoList = ({todos}: {todos: TodoType[]}) => {
   return (
     <div className="mt-2">
       {todos?.map((todo) => (

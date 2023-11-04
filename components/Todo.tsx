@@ -2,7 +2,7 @@
 import { useTransition } from "react"
 import { completeTodo } from "@/utils/actions"
 
-type TodoType = {
+export type TodoType = {
   id: string
   content: string
   completed: boolean
