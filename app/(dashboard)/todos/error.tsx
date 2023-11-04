@@ -3,7 +3,7 @@
 const ErrorUI = () => {
   return (
     <div>
-      Oops, something went wrong.
+      Oops, Prisma does not run in production, pull code down and run locally to get full functionality.
     </div>
   )
 }
